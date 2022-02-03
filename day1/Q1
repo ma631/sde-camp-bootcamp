@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int n;
+	double b;
+	char c;
+	string d;
+	cin>>n>>b>>c>>d;
+	cout<<n<<" "<<b<<" "<<c<<" "<<d;
+}
