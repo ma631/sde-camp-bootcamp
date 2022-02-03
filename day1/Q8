@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	char g;
+	cin>>g;
+	if(g=='a'||g=='e'||g=='i'||g=='o'||g=='u'){
+		cout<<"vowel";
+	}	
+	else{
+		cout<<"consonants";
+	}
+}
