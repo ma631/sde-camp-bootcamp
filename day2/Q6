@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+int myatoi(string a,int n){
+	int sum=0;
+	if(n==1){
+		return sum;
+	}
+	return sum+(10*myatoi(a,n-1)+a[n-1]-'0');
+}
+
+int main(){
+	string a;
+	cin>>a;
+	long long int s;
+	int n=a.size();
+	s=myatoi(a,n);
+	if(s%30==0){
+		cout<<1;
+	}
+	else{
+		cout<<0;
+	}
+}
